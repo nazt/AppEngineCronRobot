@@ -1,0 +1,16 @@
+cron:
+
+#- description: Test Email
+#  url: /cron?url=http://61.47.10.201/~acs/tests/sms/email
+#  schedule: every 1 minutes
+#  timezone: Asia/Bangkok
+
+- description: minute cron to web
+  url: /cron?url=http://www.together.in.th/traffy_static/cctv/
+  schedule: every 1 minutes
+  timezone: Asia/Bangkok
+
+- description: minute cron to web
+  url: /cron?url=http://www.together.in.th/traffy_static/vms/
+  schedule: every 1 minutes
+  timezone: Asia/Bangkok
